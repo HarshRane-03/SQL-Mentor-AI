@@ -43,11 +43,11 @@ cd SQL-Mentor-AI
 ```
 ### Step 2: Create a Virtual Environment (Recommended)
 Isolate your project dependencies by setting up a virtual environment:
-# Windows
+### Windows
 python -m venv venv
 venv\Scripts\activate
 
-# macOS / Linux
+### macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
 source venv/bin/activate
@@ -62,7 +62,7 @@ Create a new file named .env in the root directory of the project.
 Add your API key into the file like this:
 
 GEMINI_API_KEY=your_actual_api_key_here
-# Note: If you used OpenAI, name it OPENAI_API_KEY=your_key
+### Note: If you used OpenAI, name it OPENAI_API_KEY=your_key
 
 ### Step 5: Launch the Application
 Start the Streamlit server using:
